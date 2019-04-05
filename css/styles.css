@@ -84,3 +84,7 @@ p{
 #last{
   color:#000;
 }
+@media(max-width:320px){
+.carry {
+    width: 90%;
+}
