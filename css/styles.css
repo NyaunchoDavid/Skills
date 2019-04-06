@@ -113,6 +113,10 @@ p{
   .tops h1{
     font-size:18pt;
   }
+  .fa{
+    font-size:20pt;
+    margin:4px;
+  }
 }
 @media(max-width:414px){
   .carry{
