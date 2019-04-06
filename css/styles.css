@@ -28,7 +28,7 @@ p{
 .carry{
   border:none;
   width:460px;
-  height:840px;
+  height:850px;
   background-color:#000;
   opacity:0.9;
   border-radius:4px;
@@ -85,6 +85,17 @@ p{
   color:#000;
 }
 @media(max-width:320px){
+  .tops h1{
+    font-size:18pt;
+  }
 .carry {
-    width: 90%;
+    width: 100%;
+  }
+  .fa{
+    font-size:20pt;
+    margin:0px;
+  }
+  .soc{
+    padding-top:24px;
+  }
 }
