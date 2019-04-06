@@ -44,8 +44,11 @@ p{
   margin-top:28px;
   background-image:url("../images/dave.jpg");
   background-repeat:no-repeat;
-  background-position:center;
+  background-position:center center;
   background-size:cover;
+}
+.dif{
+  color:#000;
 }
 .soc{
   text-align:center;
@@ -53,12 +56,12 @@ p{
 .fa {
   font-size: 26px;
   padding-top:10px;
-  width:50px;
-  height:50px;
+  width:46px;
+  height:46px;
   text-align: center;
   text-decoration: none;
   margin:12px;
-  border-radius:25px;
+  border-radius:23px;
 }
 .soc a{
   text-decoration: none;
@@ -93,9 +96,34 @@ p{
   }
   .fa{
     font-size:20pt;
-    margin:0px;
+    margin:4px;
   }
   .soc{
     padding-top:24px;
+  }
+  .soc a{
+    background-color: brown;
+  }
+}
+@media(max-width:375px){
+  .carry{
+    width:100%;
+    margin:1em auto;
+  }
+  .tops h1{
+    font-size:18pt;
+  }
+}
+@media(max-width:414px){
+  .carry{
+    width:100%;
+  }
+  .tops h1{
+    font-size:18pt;
+  }
+}
+@media(max-width:480px){
+  .carry{
+    width:100%;
   }
 }
